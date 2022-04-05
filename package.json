@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nodemailer": "^6.4.4",
+    "express": "^4.17.3",
+    "jsinterval": "^3.0.0",
+    "miniget": "^4.2.2",
+    "nodemailer": "^6.7.3"
+  }
+}
