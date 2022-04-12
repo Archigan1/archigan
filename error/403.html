@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403: Forbidden</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0903e2f1c8.js" crossorigin="anonymous"></script>
+    <!-- MDBootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+
+  <body>
+
+    <div class="nav-margin"><p>If you can see me, you are cool :)</p></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item" id="loginLink">
+              <a class="nav-link" href="/login">Login</a>
+            </li>
+            <li class="nav-item" id="profileLink" hidden>
+              <a class="nav-link" href="/profile">My Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container d-flex align-items-center justify-content-center" style="height: 100vh">
+      <div class="flex-column text-center">
+        <h1>403</h1>
+        <p class="font-size-md">You do not have permission to access this page.</p>
+        <a href="/" class="btn btn-primary">Login</a>
+        <a href="/" class="btn btn-primary">Home</a>
+      </div>
+    </div>
+    
+    <!-- Scripts -->
+    <!-- MDBootstrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+    <!-- Main -->
+    <script type="text/javascript" src="/static/scripts/main.js"></script>
+	</body>
+
+</html>

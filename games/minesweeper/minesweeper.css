@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "7-Segment-Display";
+  src: url("/static/7-Segment-Display.ttf");
+}
+
+#grid {
+  border-collapse: separate;
+}
+
+#grid tr td {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid white;
+  vertical-align: middle;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#grid tr td.clicked {
+  background-color: #333333;
+}
+
+#grid tr td.mine {
+  background-color: #ff0000 !important;
+}
+
+#grid tr td.flag {
+  background-color: #333333;
+}
+
+#timer {
+  font-family: "7-Segment-Display", monospace;
+  z-index: 1;
+}
+
+#timer-2 {
+  font-family: "7-Segment-Display", monospace;
+  z-index: 0;
+  transform: translateY(-100%);
+  color: rgba(255, 255, 255, 0.25);
+}
+
+#grid tr td {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* #game {
+  overflow: scroll;
+} */
